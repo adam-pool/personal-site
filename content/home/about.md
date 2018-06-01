@@ -8,12 +8,12 @@ date = 2016-04-20T00:00:00
 weight = 5
 
 # List your academic interests.
-[interests]
-  interests = [
-    "DevOps",
-    "Continuous Delivery",
-    "Agile",
-  ]
+#[interests]
+#  interests = [
+#    "DevOps",
+#    "Continuous Delivery",
+#    "Agile",
+#  ]
 
 
 
@@ -37,4 +37,6 @@ weight = 5
 
 # Biography
 
-Adam Pool is an IT Analyst in the Insure/FinTech industry. He is passionate about DevOps, Continuous Delivery, Agile Dev and continuous improvement. In his personal time he is an avid runner, cyclist, mountain biker, and triathlete. He is also a husband and father of two amazing boys.
+Adam Pool is a Systems Analyst in the Insure/FinTech industry. He is passionate about DevOps, Continuous Delivery, Agile Dev and continuous improvement. In his personal time he is an avid runner, cyclist, mountain biker, and triathlete. He is also a husband and father of two amazing boys.
+
+Adam has been working on Agile teams for the past six years. During that time Adam was focused on software quality and continuous delivery. Over the last couple of years Adam has since switched his focus to sharing his learnings and helping others learn how to reap the benefits of Agile and Continuous Delivery practices.
