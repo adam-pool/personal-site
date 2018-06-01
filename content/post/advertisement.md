@@ -2,7 +2,7 @@
 title = "If you like this blog"
 
 date = 2016-04-20T00:00:00
-lastmod = 2018-01-13T00:00:00
+lastmod = 2018-06-01T00:00:00
 draft = false
 
 tags = ["academic"]
