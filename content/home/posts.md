@@ -13,7 +13,7 @@ weight = 10
 
 # Filter posts by tag.
 #  By default, show all recent posts.
-#  Filtering example: `tags_include = ["hugo", "academic"]`
+#  Filtering example: `tags_include = ["hugo", "DevOps"]`
 tags_include = []
 tags_exclude = []
 

@@ -1,12 +1,12 @@
 +++
-title = "Academic: the website designer for Hugo"
+title = "Measuring your DevOps maturity"
 
-date = 2016-04-20T00:00:00
-lastmod = 2018-01-13T00:00:00
+date = 2018-06-01T00:00:00
+lastmod = 2018-06-01T00:00:00
 draft = false
 
-tags = ["academic"]
-summary = "Create a beautifully simple website or blog in under 10 minutes."
+tags = ["DevOps"]
+summary = "Why it's critical that you measure your DevOps transformation progress."
 
 [header]
 #image = "headers/getting-started.png"
@@ -43,103 +43,14 @@ image = "https://raw.githubusercontent.com/gcushen/hugo-academic/master/images/t
 caption = "1950s"
 +++
 
-**Academic** is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. [Check out the latest demo](https://themes.gohugo.io/theme/academic/) of what you'll get in less than 10 minutes. Then head on over to the [Quick Start guide](https://sourcethemes.com/academic/docs/) or take a look at the [Release Notes](https://sourcethemes.com/academic/updates/).
+As more and more companies are turning to DevOps practices to strengthen their standing in the marketplace, there seems to be a greater need than ever to help them understand how to measure their progress. This post is going to explore the importance of measuring your DevOps maturity and give you some tips on how to do it.
 
-[![Screenshot](https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png)](https://github.com/gcushen/hugo-academic/)
+![Screenshot](http://www.devopsdays.in/wp-content/uploads/2016/12/Devops-Cycle-01-1.png)
 
-Key features:
+Why do we need to measure our DevOps maturity? For starters it lets you know if you're improving and allows you to make adjustments as necessary. More importantly is that it ensures that your entire organization understands the direction your moving in. When the organization can all see the measurements and outcomes of the work that they are doing there is a much greater likelihood that they will not only buy-in to the change, but also help achieve the organizations goals.
 
-- Easily manage various content including homepage, blog posts, publications, talks, and projects
-- Extensible via **color themes** and **widgets/plugins**
-- Write in [Markdown](https://sourcethemes.com/academic/docs/writing-markdown-latex/) for easy formatting and code highlighting, with [LaTeX](https://en.wikibooks.org/wiki/LaTeX/Mathematics) for mathematical expressions
-- Social/academic network linking, [Google Analytics](https://analytics.google.com), and [Disqus](https://disqus.com) comments
-- Responsive and mobile friendly
-- Simple and refreshing one page design
-- Multilingual and easy to customize
+We all know that organizational initiatives have a much greater success rate when leaders drive them. However, when it comes to Agile and Continuous Delivery practices, lower level employees may not understand what it is that they need to do. So how do we get them to understand. This is where I have found that using a survey to measure their Agile and Continuous Delivery practices comes in.
 
-## Color Themes
+You can find any number of DevOps maturity surveys online with a simple web search and I'm not going to take the time to go through them all to determine what the best one is. Here I will simply explain what I feel are some important things to include in your survey. The questions that you ask need to help the person that is answering them identify the positive behaviors they should be exhibiting in order to achieve a high score. The score that the person achieves is far less important than them actually understanding what it is they need to do to improve. If your questions are worded in this way, even if your employees aren't exhibiting these behaviors, it will help them create an action plan that they can use to improve.
 
-Academic is available in different color themes and font themes.
-
-{{< gallery >}}
-
-## Install
-
-You can choose from one of the following four methods to install:
-
-* one-click install using your web browser (recommended)
-* install on your computer using Git with the Command Prompt/Terminal app
-* install on your computer by downloading the ZIP files
-* install on your computer with RStudio
-
-### Quick install using your web browser
-
-1. [Install Academic with Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart)
-    * Netlify will provide you with a customizable URL to access your new site
-2. On GitHub, go to your newly created `academic-kickstart` repository and edit `config.toml` to personalize your site. Shortly after saving the file, your site will automatically update
-3. Read the [Quick Start Guide](https://sourcethemes.com/academic/docs/) to learn how to add Markdown content. For inspiration, refer to the [Markdown content](https://github.com/gcushen/hugo-academic/tree/master/exampleSite) which powers the [Demo](https://themes.gohugo.io/theme/academic/)
-
-### Install with Git
-
-Prerequisites:
-
-* [Download and install Git](https://git-scm.com/downloads)
-* [Download and install Hugo](https://gohugo.io/getting-started/installing/#quick-install)
-
-1. [Fork](https://github.com/sourcethemes/academic-kickstart#fork-destination-box) the *Academic Kickstart* repository and clone your fork with Git:
-
-        git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
-
-    *Note that if you forked Academic Kickstart, the above command should be edited to clone your fork, i.e. replace `sourcethemes` with your GitHub username.*
-
-2. Initialize the theme:
-
-        cd My_Website
-        git submodule update --init --recursive
-
-### Install with ZIP
-
-1. [Download](https://github.com/sourcethemes/academic-kickstart/archive/master.zip) and extract *Academic Kickstart*
-2. [Download](https://github.com/gcushen/hugo-academic/archive/master.zip) and extract the *Academic theme* to the `themes/academic/` folder from the above step
-
-### Install with RStudio
-
-[View the guide to installing Academic with RStudio](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
-
-## Quick start
-
-1. If you installed on your computer, view your new website by running the following command:
-
-        hugo server
-
-    Now visit [localhost:1313](http://localhost:1313) and your new Academic powered website will appear. Otherwise, if using Netlify, they will provide you with your URL.
-
-2. Read the [Quick Start Guide](https://sourcethemes.com/academic/docs/) to learn how to add Markdown content, customize your site, and deploy it. For inspiration, refer to the [Markdown content](https://github.com/gcushen/hugo-academic/tree/master/exampleSite) which powers the [Demo](https://themes.gohugo.io/theme/academic/)
-
-3. Build your site by running the `hugo` command. Then [host it for free using Github Pages](https://georgecushen.com/create-your-website-with-hugo/) or Netlify (refer to the first installation method). Alternatively, copy the generated `public/` directory (by FTP, Rsync, etc.) to your production web server (such as a university's hosting service).
-
-## Updating
-
-Feel free to *star* the project on [Github](https://github.com/gcushen/hugo-academic/) to help keep track of updates and check out the [release notes](https://sourcethemes.com/academic/updates) prior to updating your site.
-
-Before updating the framework, it is recommended to make a backup of your entire website directory (or at least your `themes/academic` directory) and record your current version number.
-
-By default, Academic is installed as a Git submodule which can be updated by running the following command:
-
-```bash
-git submodule update --remote --merge
-```
-
-[Check out the update guide](https://sourcethemes.com/academic/docs/update/) for full instructions and alternative methods.
-
-## Feedback & Contributing
-
-Please use the [issue tracker](https://github.com/gcushen/hugo-academic/issues) to let me know about any bugs or feature requests, or alternatively make a pull request.
-
-For support, head over to the [Hugo discussion forum](http://discuss.gohugo.io).
-
-## License
-
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md) license.
+Surveys can have a bad reputation and people can be known to harbor disdain for them. It's very important that you communicate the purpose of the survey questions very clearly. These questions are designed to help employees understand what they need to do. When framing their purpose correctly and not beating people up for their results, I have rarely encountered anyone that was not happy to answer the questions.
