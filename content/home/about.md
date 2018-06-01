@@ -12,37 +12,29 @@ weight = 5
   interests = [
     "DevOps",
     "Continuous Delivery",
-    "Agile"
+    "Agile",
   ]
 
-  [hobbies]
-    hobbies = [
-      "Fitness",
-      "Family",
-      "Outdoors"
-      "Dogs"
-    ]
 
-// # List your qualifications (such as academic degrees).
-// [[education.courses]]
-//  course = "PhD in Artificial Intelligence"
-//  institution = "Stanford University"
-//  year = 2012
 
-// [[education.courses]]
-//  course = "MEng in Artificial Intelligence"
-//  institution = "Massachusetts Institute of Technology"
-//  year = 2009
+# List your qualifications (such as academic degrees).
+# [[education.courses]]
+#  course = "PhD in Artificial Intelligence"
+#  institution = "Stanford University"
+#  year = 2012
 
-// [[education.courses]]
-//  course = "BSc in Artificial Intelligence"
-//  institution = "Massachusetts Institute of Technology"
-//  year = 2008
+# [[education.courses]]
+#  course = "MEng in Artificial Intelligence"
+#  institution = "Massachusetts Institute of Technology"
+#  year = 2009
+
+# [[education.courses]]
+#  course = "BSc in Artificial Intelligence"
+#  institution = "Massachusetts Institute of Technology"
+#  year = 2008
 
 +++
 
 # Biography
 
-Adam Pool is an IT Analyst in the Insurance and Financial industry. He is passiona
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Adam Pool is an IT Analyst in the Insure/FinTech industry. He is passionate about DevOps, Continuous Delivery, Agile Dev and continuous improvement. In his personal time he is an avid runner, cyclist, mountain biker, and triathlete. He is also a husband and father of two amazing boys.
